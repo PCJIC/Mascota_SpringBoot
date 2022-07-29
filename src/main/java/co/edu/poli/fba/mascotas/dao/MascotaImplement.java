@@ -42,5 +42,6 @@ public class MascotaImplement implements MascotaDao {
         Mascota m = entityManager.find(Mascota.class, id);
         entityManager.remove(m);
         return m;
+
     }
 }
